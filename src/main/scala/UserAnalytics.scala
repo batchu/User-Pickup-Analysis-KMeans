@@ -2,9 +2,6 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.log4j.{Level, Logger}
 
-/**
-  * Created by i1551 on 7/11/17.
-  */
 object UserAnalytics {
 
   def main(args: Array[String]): Unit = {

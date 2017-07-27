@@ -7,9 +7,6 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._
 import org.apache.spark.{SparkConf, SparkContext}
-/**
-  * Created by i1551 on 7/12/17.
-  */
 object Kmeans {
   def main(args: Array[String]): Unit = {
 

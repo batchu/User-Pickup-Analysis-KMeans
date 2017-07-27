@@ -1,9 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SparkSession
 
-/**
-  * Created by i1551 on 7/18/17.
-  */
 object Zepplin {
 
   def main(args:Array[String])={
@@ -26,7 +23,7 @@ object Zepplin {
     )
 
     import spark.implicits._
-    bank.toDF().createOrReplaceTempView("bank")
+//    bank.toDF().createOrReplaceTempView("bank")
 
 
   }
